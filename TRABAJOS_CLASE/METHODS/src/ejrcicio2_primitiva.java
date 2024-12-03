@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ejrcicio2_contents {
+public class ejrcicio2_primitiva {
     
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

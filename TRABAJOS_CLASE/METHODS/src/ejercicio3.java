@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
-public class Exercici3 {
+public class ejercicio3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Solicitar los números
+
         System.out.println("Introduce el primer número:");
         int num1 = sc.nextInt();
         System.out.println("Introduce el segundo número:");
         int num2 = sc.nextInt();
 
-        // Mostrar las opciones
+
         System.out.println("¿Qué deseas hacer con estos números?");
         System.out.println("1- Suma");
         System.out.println("2- Resta");
@@ -20,7 +20,7 @@ public class Exercici3 {
 
         int n = sc.nextInt();
 
-        // Usar un switch para seleccionar la operación
+
         switch (n) {
             case 1:
                 suma(num1, num2);
@@ -44,25 +44,25 @@ public class Exercici3 {
         sc.close();
     }
 
-    // Método para la suma
+
     public static void suma(int num1, int num2) {
         int sum = num1 + num2;
         System.out.println("La suma equivale a: " + sum);
     }
 
-    // Método para la resta
+
     public static void resta(int num1, int num2) {
         int resta = num1 - num2;
         System.out.println("La resta equivale a: " + resta);
     }
 
-    // Método para la multiplicación
+
     public static void multi(int num1, int num2) {
         int multi = num1 * num2;
         System.out.println("La multiplicación equivale a: " + multi);
     }
 
-    // Método para la división
+
     public static void divi(int num1, int num2) {
         if (num2 != 0) {
             int divi = num1 / num2;
@@ -72,7 +72,7 @@ public class Exercici3 {
         }
     }
 
-    // Método para la exponencial
+
     public static void expo(int num1, int num2) {
         // Usar Math.pow para la exponenciación
         double expo = Math.pow(num1, num2);
