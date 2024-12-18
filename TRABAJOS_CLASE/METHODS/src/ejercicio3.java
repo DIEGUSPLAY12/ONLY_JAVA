@@ -56,7 +56,6 @@ public class ejercicio3 {
         System.out.println("La resta equivale a: " + resta);
     }
 
-
     public static void multi(int num1, int num2) {
         int multi = num1 * num2;
         System.out.println("La multiplicación equivale a: " + multi);
@@ -71,7 +70,6 @@ public class ejercicio3 {
             System.out.println("No se puede dividir por cero.");
         }
     }
-
 
     public static void expo(int num1, int num2) {
         // Usar Math.pow para la exponenciación
